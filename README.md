@@ -1,0 +1,1 @@
+This repository contains a simple Rust program that demonstrates a common error related to using raw pointers to modify vectors.  The bug occurs due to invalid pointer access after the vector's internal state is changed.  The solution demonstrates how to safely handle this scenario using methods that maintain the vector's integrity.
